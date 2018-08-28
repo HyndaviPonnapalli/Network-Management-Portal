@@ -2,21 +2,39 @@
 &nbsp; &nbsp; &nbsp; 
     <ul align="right">
         <li><a [routerLink]="['/login']">Logout</a></li>
-        <li><a href="#help">Help</a></li>
+        <li><a [routerLink]="['/help']">Help</a></li>
         <li><a href="#contact">Contact Us</a></li>
-        <li><a class="active" href="#home">Home</a></li>
-    </ul>
-<div align="center">
-<a href="">
-    <img src="../Images/cisco-icon.JPG" alt="avatar" style="width: 180px; height: 180px;
-padding-top: 105px;" border="0">
-</a> &nbsp; &nbsp; &nbsp;
-<a href="">
-    <img src="../Images/paloalto-icon.JPG" alt="avatar" style="width: 180px; height: 180px;
-padding-top: 105px;" border="0">
-</a> &nbsp; &nbsp; &nbsp;
-<a href="">
-    <img src="../Images/riverbed-icon.JPG" alt="avatar" style="width: 180px; height: 180px;
-padding-top: 105px;" border="0">
-</a>
-</div>
+        <li><a class="active" [routerLink]="['/home']">Home</a></li>
+    </ul><br><br><br><br><br><br>
+    <!-- Flex box for images -->
+        
+      <div class="row">  
+        
+        <div class="item">
+          <p class="item-image">
+            <img src="https://placeholdit.imgix.net/~text?txtsize=50&txt=600%C3%97250&w=600&h=250" alt="Image">
+          </p>
+          <h2 class="item-heading">
+            Nunc dapibus tortor vel mi dapibus sollicitudin
+          </h2>
+        </div>
+      
+        <div class="item">
+          <p class="item-image">
+            <img src="https://placeholdit.imgix.net/~text?txtsize=50&txt=600%C3%97250&w=600&h=250" alt="Image">
+          </p>
+          <h2 class="item-heading">
+            Mauris elementum mauris vitae tortor
+          </h2>
+        </div>
+      
+        <div class="item">
+          <p class="item-image">
+            <img src="https://placeholdit.imgix.net/~text?txtsize=50&txt=600%C3%97250&w=600&h=250" alt="Image">
+          </p>
+          <h2 class="item-heading">
+            Aliquam ornare wisi eu metus
+          </h2>
+        </div> 
+        
+      </div>  

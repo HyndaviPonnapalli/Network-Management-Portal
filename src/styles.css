@@ -63,3 +63,78 @@ li {
     text-decoration: none;
     cursor: pointer;
 }
+.row {
+    display: flex;
+  }
+  
+  .item {
+    flex: 0.3 0.3 20%;
+    padding-left: 0.5rem;
+  }
+  
+  .item:first-child {
+    padding-left: 0;
+  }  
+  
+  /* Vertical flex: items
+     ===================
+  */
+  
+  .item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .item-heading {
+    flex: 1;
+  }
+  
+  /* Third flex: item heading
+     ========================
+  */
+  
+  .item-heading {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  
+  /* Not so important CSS - base styles: 
+     ===================================
+  */
+  
+  body {
+    margin: 2rem;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h2, 
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .row {
+    margin-bottom: 1.5rem;
+  }
+  
+  .item-heading {
+    padding: 1rem;
+    font-size: 1rem;
+    background: #3F83BF;
+    text-align: center;
+  }
+  
+  .meta {
+    color: #FFFFFF;
+    margin-bottom: 3rem;
+  }
+  
+  .meta p {
+    margin-bottom: .5rem;
+  }
